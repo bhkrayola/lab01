@@ -34,4 +34,8 @@ public class MainActivity extends AppCompatActivity {
         Log.i("decrementing", ""+count);
         countDisplay.setText(Integer.toString(count));
     }
+    public void reset(View view) {
+        count = 0;
+        countDisplay.setText(Integer.toString(count));
+    }
 }
