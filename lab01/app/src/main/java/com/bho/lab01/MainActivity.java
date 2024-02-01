@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 System.out.println("incrementing: "+ ++count);
                 Log.i("incrementing", ""+count);
+                //test
             }
         });
     }
