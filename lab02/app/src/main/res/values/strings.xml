@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="increment">Increment</string>
+    <string name="wazowski">mike wazowski</string>
+    <string name="decrement">  Decrement</string>
+    <string-array name="linux_distributions">
+        <item>Ubuntu</item>
+        <item>Kali</item>
+        <item>Debian</item>
+        <item>Fedora</item>
+        <item>Arch</item>
+        <item>CentOS</item>
+    </string-array>
+</resources>
