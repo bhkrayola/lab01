@@ -21,7 +21,8 @@ public class DrawView extends View {
     protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
         p.setColor(Color.parseColor("#FFA500"));
-        canvas.drawCircle(getWidth()/2,getHeight()/2,400f,p);
+        //canvas.drawCircle(getWidth()/2,getHeight()/2,400f,p);
+        canvas.drawCircle(getWidth()/2,y,400f,p);
         canvas.drawCircle(100,200,150.5f,new Paint());
         y+=dY;
         y%=getHeight();
